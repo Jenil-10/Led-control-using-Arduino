@@ -1,5 +1,5 @@
 # Led-control-using-Arduino
-
+## DATE : 22/08/2024
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
 
@@ -57,10 +57,36 @@ Security System Indicator </br>
 Emergency Signaling System </br>
 Weighing Machines </br>
 
-## CIRCUIT DIAGRAM
+## CIRCUIT DIAGRAM :
+![image](https://github.com/user-attachments/assets/46dc1810-9205-45a6-9acc-da6818635b33)
 
-## PROGRAM
+
+## PROGRAM:
+NAME : AMRUTHA SA
+REG NO : 212222110004
+const int buttonPin = 3;     
+const int ledPin =  13;     
+int buttonState = 0;         
+void setup() {
+  pinMode(ledPin, OUTPUT);
+  pinMode(buttonPin, INPUT);
+}
+void loop()
+{
+  buttonState = digitalRead(buttonPin);
+  if (buttonState == HIGH) 
+{
+  digitalWrite(ledPin, HIGH);
+} 
+  else 
+{
+  digitalWrite(ledPin, LOW);
+}
+}
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/00868949-3f58-4b53-89b6-8bf8c60a146f)
 
-## RESULT
+
+## RESULT:
+Thus to design and implement a system for LED control using an Arduino microcontroller and a push button is executed.
