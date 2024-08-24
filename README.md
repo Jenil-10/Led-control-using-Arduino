@@ -1,5 +1,5 @@
-## NAME:  JENIL PIO J
-## Reg No : 212223220040 
+## NAME: jenil pio j
+## Reg No : 212223220040
 ## Led-control-using-Arduino
 
 ## AIM
