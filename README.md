@@ -1,6 +1,7 @@
-## NAME: jenil pio j
-## Reg No : 212223220040
-## Led-control-using-Arduino
+NAME: jenil pio j
+
+Reg No : 212223220040
+## EX NO:1 Led-control-using-Arduino
 
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
